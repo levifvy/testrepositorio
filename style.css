@@ -34,13 +34,16 @@ body {
   
   main {
     max-width: 1200px;
-    margin: 20px;
-    padding: 0;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
     border: 10px rgb(216, 21, 151) solid;
     
   }
   
   main section {
+    margin: auto;
     background-color: #8ea0df;
     padding: 20px;
     border: 1px rgb(94, 5, 248) solid;
