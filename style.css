@@ -35,14 +35,19 @@ body {
   main {
     max-width: 1200px;
     margin: 20px;
-    padding: 20px;
-    border: 20px;
-    margin-top: 10px;
+    padding: 0;
+    border: 10px rgb(216, 21, 151) solid;
+    
   }
   
   main section {
     background-color: #8ea0df;
     padding: 20px;
+    border: 1px rgb(94, 5, 248) solid;
+  }
+
+  main section p {
+    text-align: center;
     
   }
 
@@ -59,8 +64,4 @@ body {
 
   h2 {
     font-style: italic;
-  }
-
-  merge {
-
   }
