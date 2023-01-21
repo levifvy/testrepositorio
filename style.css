@@ -5,9 +5,10 @@ body {
   }
   
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: rgb(222, 13, 79);
+    color: rgb(21, 1, 1);
     padding: 20px;
+    text-align: center;
   }
   
   header h1 {
@@ -23,27 +24,43 @@ body {
   header nav ul li {
     display: inline-block;
     margin-right: 10px;
+    text-align: left;
   }
   
   header nav ul li a {
-    color: blue;
+    color: rgb(47, 39, 132);
     text-decoration: none;
   }
   
   main {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px;
     padding: 20px;
+    border: 20px;
+    margin-top: 10px;
   }
   
   main section {
-    background-color: #f2f2f2;
+    background-color: #8ea0df;
     padding: 20px;
+    
+  }
+
+  main section nav {
+    text-align: right;
   }
   
   footer {
-    background-color: #333;
-    color: #fff;
+    background-color: rgb(237, 144, 203);
+    color: rgb(69, 8, 143);
     padding: 10px;
     text-align: center;
   }  
+
+  h2 {
+    font-style: italic;
+  }
+
+  merge {
+
+  }
